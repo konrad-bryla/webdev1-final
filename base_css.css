@@ -1,0 +1,267 @@
+<style>
+* {box-sizing:border-box;}
+@font-face {
+	font-family:"CustomFont";
+	src:url("Marmelad-Regular.ttf");
+}
+img {
+	display:none;
+}
+.wrapper {
+	min-height:100%;
+}
+.main {
+	overflow:auto;
+	position:relative;
+	margin:auto;
+}
+.mainContent {
+	
+}
+.navLogo img {
+	display:none;
+}
+.navBar a {
+	display:block;
+	color:#EDEAE5;
+	background-color:#026670;
+	text-align:center;
+	padding-bottom:4px;
+	margin:0;
+	text-decoration:none;
+	font-size:25px; 
+}
+.navBar a:visited{
+}
+.navBar a:focus,.navBar a:hover, .navBar:active {
+	background-color:#EDEAE5;
+	color:#026670;
+}
+.pageNav {
+	display:none;
+}
+#submit {
+	background-color:#026670;
+	border:none;
+}
+		
+		/* medium devices (tablet) */
+		@media (min-width:768px){ body {background-color:#EDEA5;}
+body {
+	min-width:300px;
+	margin:0;
+	background-color:#EDEAE5;
+	font-family:CustomFont;
+}
+img {
+	display:inline;
+	border-radius:50%;
+	padding-left:5px;
+}
+@font-face {
+	font-family:"CustomFont";
+	src:url("Marmelad-Regular.ttf");
+}
+.wrapper {
+	min-height:100%;
+}
+.main {
+	overflow:auto;
+	position:relative;
+	margin:auto;
+	padding-bottom:40px;
+	width:97%;
+	top:82px;
+}
+.mainContent {
+	margin-left:200px;
+	border-right:4px dotted #9FEDD7;
+	border-left:4px dotted #9FEDD7;
+	padding:20px;
+	font-size:25px;
+}
+.mainContent-block{
+	padding-right:40px;
+	border-bottom:3px dashed #9FEDD7;
+}
+.navContainer {
+	overflow:hidden;
+	background-color:#026670;
+	position:fixed;
+	top:0;
+	width:100%;
+	z-index:1;
+	border-bottom:2px outset #EDEAE5;
+}
+.navLogo {
+	margin:0;
+	float:left;
+	padding:3px;
+	display:block;
+	position:fixed;
+}
+.navLogo img {
+	display:block;
+	border-radius:50%;
+}
+.navBar a {
+	float:right;
+	display:block;
+	color:#EDEAE5;
+	text-align:center;
+	padding:17px 20px;
+	text-decoration:none;
+	font-size:25px;
+}
+.navBar a:visited{
+	color:#EDEAE5;
+}
+.navBar a:focus,.navBar a:hover, .navBar:active {
+	background-color:#EDEAE5;
+	color:#026670;
+}
+.pageNav {
+	display:block;
+	float:left;
+	position:fixed;
+	margin-top:15px;
+}
+.pageNav ul {
+	display:block;
+	padding-top:40px;
+	list-style:none;
+	margin:40px;
+}
+.pageNav a{
+	text-decoration:none;
+}
+.quick {
+	font-size:1.5em;
+	padding-bottom:10px;
+}
+#submit {
+	background-color:#026670;
+	border:none;
+}
+.footer {
+	
+}
+		}
+		
+		/* large devices (desktops) */
+		@media (min-width:992px) { body {background-color:#EDEA5;}
+body {
+	min-width:300px;
+	margin:0;
+	background-color:#EDEAE5;
+	font-family:CustomFont;
+}
+img {
+	display:inline;
+	border-radius:50%;
+	padding-left:5px;
+}
+@font-face {
+	font-family:"CustomFont";
+	src:url("Marmelad-Regular.ttf");
+}
+.wrapper {
+	min-height:100%;
+}
+.main {
+	overflow:auto;
+	position:relative;
+	margin:auto;
+	padding-bottom:40px;
+	width:90%;
+	top:82px;
+}
+.mainContent {
+	margin-left:200px;
+	border-right:4px dotted #026670;
+	border-left:4px dotted #026670;
+	padding:20px;
+	font-size:25px;
+}
+.mainContent-block{
+	border-bottom:3px dashed #026670;
+}
+.navContainer {
+	overflow:hidden;
+	background-color:#026670;
+	position:fixed;
+	padding:10px;
+	top:0;
+	width:100%;
+	z-index:1;
+	border-bottom:2px outset #EDEAE5;
+}
+.navLogo {
+	margin:0;
+	float:left;
+	padding:3px;
+	display:block;
+	position:fixed;
+	
+}
+.navLogo img {
+	display:block;
+	border-radius:50%;
+}
+.navBar a {
+	float:right;
+	display:block;
+	color:#EDEAE5;
+	text-align:center;
+	padding:17px 20px;
+	text-decoration:none;
+	font-size:1.5em;
+}
+.navBar a:visited{
+	color:#EDEAE5;
+}
+.navBar a:focus,.navBar a:hover, .navBar:active {
+	background-color:#EDEAE5;
+	color:#026670;
+	text-decoration:none;
+	border-radius:20%;
+}
+.pageNav {
+	display:block;
+	float:left;
+	position:fixed;
+	margin-top:15px;
+}
+.pageNav ul {
+	padding-top:40px;
+	list-style:none;
+	margin:40px;
+}
+.pageNav a{
+	text-decoration:none;
+	font-size:1.3em;
+	padding-right:10px;
+}
+.quick {
+	font-size:1.5em;
+	padding-bottom:10px;
+}
+form{
+	border-bottom:3px dashed #026670;
+}
+#submit {
+	background-color:#026670;
+	border:none;
+}
+.navBarAudio {
+	z-index:1;
+}
+.twitter {
+}
+.footer {
+	padding:8px;
+	text-align:center;
+}
+		}
+		
+</style>
